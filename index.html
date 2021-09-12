@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- navbar start from here -->
+    <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/index.html">
+                <i class="fas fa-shopping-cart" style="margin-right: 5px;"></i>
+                Kharid Dar.com
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item" href="about.html">
+                    About us
+                </a>
+                <a class="navbar-item" href="report.html">
+                    Contact us
+                </a>
+
+                <a class="navbar-item" href="customer.html">
+                    Customer Care
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Category
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Fruits & Vegetables
+                        </a>
+                        <a class="navbar-item">
+                            Dairy & Bakery
+                        </a>
+                        <a class="navbar-item">
+                            Staples
+                        </a>
+                        <a class="navbar-item">
+                            Snacks & Foods
+                        </a>
+                        <a class="navbar-item">
+                            Men
+                        </a>
+                        <a class="navbar-item">
+                            Women
+                        </a>
+                        <a class="navbar-item">
+                            Boys
+                        </a>
+                        <a class="navbar-item">
+                            Girls
+                        </a>
+
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="report.html">
+                            Report an issue
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary is-success" href="signup.html">
+                            <strong>Sign up</strong>
+                        </a>
+                        <strong>
+                            <a class="button is-primary is-success" href="/signin.html">
+                                Log in
+                            </a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <!-- product seraching here  -->
+
+    <article class="panel is-success">
+        <p class="panel-heading">
+            Success
+        </p>
+        <p class="panel-tabs">
+            <a class="is-active">All</a>
+            <a>Vegetables</a>
+            <a>Dairy</a>
+            <a>Men</a>
+            <a>Women</a>
+            <a>Boys</a>
+            <a>Girls</a>
+        </p>
+        <div class="panel-block">
+            <p class="control has-icons-left">
+                <input class="input is-success" type="text" placeholder="Search">
+                <span class="icon is-left">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                </span>
+            </p>
+        </div>
+        <a class="panel-block is-active">
+            <span class="panel-icon">
+                <i class="fas fa-apple-alt"></i>
+            </span>
+            Fruits & Vegetables
+        </a>
+        <a class="panel-block is-active">
+            <span class="panel-icon">
+                <i class="fas fa-bread-slice"></i>
+            </span>
+            Dairy & Bakery
+        </a>
+        <a class="panel-block is-active">
+            <span class="panel-icon">
+                <i class="fas fa-tshirt"></i>
+            </span>
+            Clothes
+        </a>
+        <a class="panel-block is-active">
+            <span class="panel-icon">
+                <i class="fas fa-hamburger"></i>
+            </span>
+            Snacks & Branded Foods
+        </a>
+    </article>
+
+
+
+
+
+
+
+
+    <!-- progress bar here  -->
+    <progress class="progress is-small is-success" max="100">15%</progress>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- home page goes her  -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button> -->
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="img/Screenshot (167).png" class="d-block w-100" style="height: 80vh;">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/shop1.jpg" class="d-block w-100" alt="..." style="height: 80vh;">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/shop2.jpg" class="d-block w-100" alt="..." style="height: 80vh;">
+            </div>
+        </div>
+        <!-- <div class="carousel-inner">
+            <div class="carousel-item active"  data-bs-interval="4000">
+              <img src="img/shop3.png" class="d-block w-100" alt="...">
+            </div> -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- // users goes here -->
+
+    <nav class="level is-mobile">
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Customers</p>
+                <p class="title">80,456</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Followers</p>
+                <p class="title">456K</p>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- content goes here  -->
+    <main>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Start Buying</h1>
+                    <p class="lead text-muted"> “Whoever said that money can't buy happiness simply didn't know where to
+                        go shopping.”</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/boys.jpeg" alt="fruit" class="img-fluid">
+
+                            <div class="card-body">
+                                <strong class="card-text">Best Boys Clothes</strong>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: green; color:#fff; margin-top: 10px;">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/girls.jfif" alt="fruit" class="img-fluid">
+
+                            <div class="card-body">
+                                <strong class="card-text">Best Girls Clothes</strong>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: green; color:#fff; margin-top: 10px;">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/saree.jfif" alt="fruit" class="img-fluid">
+
+                            <div class="card-body">
+                                <strong class="card-text">Branded Sarees</strong>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: green; color:#fff; margin-top: 10px;">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/fruit.jpg" alt="fruit" class="img-fluid">
+
+                            <div class="card-body">
+                                <strong class="card-text">All Fresh Fruits and Vegetables</strong>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: green; color:#fff; margin-top: 10px;">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+        
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/food-staples-business.jpg" alt="fruit" class="img-fluid">
+
+                            <div class="card-body">
+                                <strong class="card-text">All Staple Foods With Discount</strong>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: green; color:#fff; margin-top: 10px;">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/snacks.jfif" alt="fruit" class="img-fluid">
+
+                            <div class="card-body">
+                                <strong class="card-text">All Types Of Snacks</strong>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: green; color:#fff; margin-top: 10px;">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img//dairy-and-bakery.png" alt="fruit" class="img-fluid">
+
+                            <div class="card-body">
+                                <strong class="card-text">All Fresh Dairy And Bakery Products</strong>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: green; color:#fff; margin-top: 10px;">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/men.jpg" alt="fruit" class="img-fluid">
+
+                            <div class="card-body">
+                                <strong class="card-text">Best Mens Branded Company's Clothes</strong>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: green; color:#fff; margin-top: 10px;">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/womens.jpg" alt="fruit" class="img-fluid">
+
+                            <div class="card-body">
+                                <strong class="card-text">All Best Womens Branded Clothes</strong>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: green; color:#fff; margin-top: 10px;">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                
+
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+    <!-- //footer goes here 0000 -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Kharid Dar.com</strong> by <a href="https://jgthms.com">Vishal Brijesh Kanojiya</a>. </a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          </p>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });</script>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

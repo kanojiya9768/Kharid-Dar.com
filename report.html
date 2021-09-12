@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar start from here -->
+    <nav class="navbar is-fixed-top is-success" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/index.html">
+                <i class="fas fa-shopping-cart" style="margin-right: 5px;"></i>
+                Kharid Dar.com
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item" href="about.html">
+                    About us
+                </a>
+                <a class="navbar-item" href="report.html">
+                    Contact us
+                </a>
+
+                <a class="navbar-item" href="customer.html">
+                    Customer Care
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Category
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Fruits & Vegetables
+                        </a>
+                        <a class="navbar-item">
+                            Dairy & Bakery
+                        </a>
+                        <a class="navbar-item">
+                            Staples
+                        </a>
+                        <a class="navbar-item">
+                            Snacks & Foods
+                        </a>
+                        <a class="navbar-item">
+                            Men
+                        </a>
+                        <a class="navbar-item">
+                            Women
+                        </a>
+                        <a class="navbar-item">
+                            Boys
+                        </a>
+                        <a class="navbar-item">
+                            Girls
+                        </a>
+
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="report.html">
+                            Report an issue
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary is-success" href="signup.html">
+                            <strong>Sign up</strong>
+                        </a>
+                        <strong>
+                            <a class="button is-primary is-success" href="/signin.html">
+                                Log in
+                            </a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <!-- product seraching here  -->
+
+    <article class="panel is-success">
+        <p class="panel-heading">
+            Success
+        </p>
+        <p class="panel-tabs">
+            <a class="is-active">All</a>
+            <a>Vegetables</a>
+            <a>Dairy</a>
+            <a>Men</a>
+            <a>Women</a>
+            <a>Boys</a>
+            <a>Girls</a>
+        </p>
+        <div class="panel-block">
+            <p class="control has-icons-left">
+                <input class="input is-success" type="text" placeholder="Search">
+                <span class="icon is-left">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                </span>
+            </p>
+        </div>
+        <a class="panel-block is-active">
+            <span class="panel-icon">
+                <i class="fas fa-apple-alt"></i>
+            </span>
+            Fruits & Vegetables
+        </a>
+        <a class="panel-block is-active">
+            <span class="panel-icon">
+                <i class="fas fa-bread-slice"></i>
+            </span>
+            Dairy & Bakery
+        </a>
+        <a class="panel-block is-active">
+            <span class="panel-icon">
+                <i class="fas fa-tshirt"></i>
+            </span>
+            Clothes
+        </a>
+        <a class="panel-block is-active">
+            <span class="panel-icon">
+                <i class="fas fa-hamburger"></i>
+            </span>
+            Snacks & Branded Foods
+        </a>
+    </article>
+
+
+
+
+
+
+
+    <!-- progress bar here  -->
+    <progress class="progress is-small is-success" max="100">15%</progress>
+
+
+
+
+
+
+    <!-- // users goes here -->
+
+    <nav class="level is-mobile">
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Customers</p>
+            <p class="title">80,456</p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Followers</p>
+            <p class="title">456K</p>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <!-- //contact us or report us goes here  -->
+      <form action="/">
+      <div class="field">
+        <label class="label">Full Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Full Name">
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Username</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-success" type="text" placeholder="Text input" value="KanojiyaVishal1234">
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-success" type="email" placeholder="Email input" value="Example@gmail.com">
+          <span class="icon is-small is-left">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-check"></i>
+          </span>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Subject</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Delivery Issue</option>
+              <option>Product Issue</option>
+              <option>Website Or App Issue</option>
+              <option>Login Issue</option>
+              <option>Sign up Issue</option>
+              <option>Other</option>
+              <option>Help</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Write Your Issue</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Massage Us"></textarea>
+        </div>
+      </div>
+      
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox">
+            I agree to the <a href="#">terms and conditions</a>
+          </label>
+        </div>
+      </div>
+      
+     
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-success" onclick="confirm('are u sure to send!')">Submit</button>
+        </div>
+        <div class="control">
+          <button type="reset" class="button is-link is-warning">Reset</button>
+        </div>
+      </div>
+    </form>
+    <hr>
+
+
+
+    <!-- //footer goes here 0000 -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Kharid Dar.com</strong> by <a href="https://jgthms.com">Vishal Brijesh Kanojiya</a>. </a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          </p>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+    <script>document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });</script>
+
+         <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
